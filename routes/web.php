@@ -17,9 +17,9 @@ use App\Models\Character;
 |
 */
 
-Route::get('{any?}', function () {
-    return view('joke');
-})->where('any', '.*');
+// Route::get('{any?}', function () {
+//     return view('joke');
+// })->where('any', '.*');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

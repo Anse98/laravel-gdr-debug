@@ -21,7 +21,7 @@ class CharacterController extends Controller
 
     public function show(Character $character)
     {
-        return view('character.show', compact('character'));
+        return view('characters.show', compact('character'));
     }
 
     public function create()

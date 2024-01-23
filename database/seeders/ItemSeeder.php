@@ -14,7 +14,7 @@ class ItemSeeder extends Seeder
      */
     public function run(Faker $faker): void
     {
-        $items = ['Armatura', 'Scudo', 'Ascia', 'Giavellotto', 'Lancia', 'Pugnale', 'Martello Leggero', 'Arco', 'Balestra', 'Pugnale', 'Fionda', 'Dardo', 'Alabarda', 'Frusta', 'Piccone da Guerra', 'Spada', 'Scimitarra', 'Tridente', 'Cerbottana', 'Abito Comune', 'Veleno', 'Attrezzi da scalatore', 'Cannocchiale', 'Bacchetta', 'Verga', 'Libro', 'Rampino', 'Torcia', 'Tenda', 'Pozione di Guarigione', 'Veleno'];
+        $items = ['Armatura', 'Scudo', 'Ascia', 'Giavellotto', 'Lancia', 'Pugnale', 'Martello Leggero', 'Arco', 'Balestra', 'Fionda', 'Dardo', 'Alabarda', 'Frusta', 'Piccone da Guerra', 'Spada', 'Scimitarra', 'Tridente', 'Cerbottana', 'Abito Comune', 'Veleno', 'Attrezzi da scalatore', 'Cannocchiale', 'Bacchetta', 'Verga', 'Libro', 'Rampino', 'Torcia', 'Tenda', 'Pozione di Guarigione'];
 
         foreach ($items as $item_name) {
             $new_item = new Item();

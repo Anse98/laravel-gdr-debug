@@ -55,8 +55,8 @@
                 @endforeach
             </select>
 
-            <input type="hidden" name="name" id="hidden-name" value="Chuck Norris">
-            <input type="hidden" name="bio" id="hidden-bio" value="Non esiste la teoria dell'evoluzione, ma solo una lista di creature a cui Chuck Norris permette di vivere.">
+            {{-- <input type="hidden" name="name" id="hidden-name" value="Chuck Norris">
+            <input type="hidden" name="bio" id="hidden-bio" value="Non esiste la teoria dell'evoluzione, ma solo una lista di creature a cui Chuck Norris permette di vivere."> --}}
 
             <div>
                 <input type="submit" class="btn btn-primary" value="Aggiungi">

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Api\Controller;
+namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -12,6 +12,9 @@ class CharacterController extends Controller
     {
         $characters = Character::with('type', 'items')->get();
 
-        return view('characters.index', compact('characters'));
+        return response()->json([
+            'success' => true,
+            'results' => $characters
+        ]);
     }
 }
